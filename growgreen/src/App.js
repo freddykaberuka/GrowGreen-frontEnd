@@ -6,13 +6,15 @@ import NavBar from './components/NavBar'
 // import Landing from './components/pages/landing'
 import Service from './components/pages/Services'
 import landings from './assets/images/ggr-background1.jpg'
+import Contacts from './components/pages/Contacts';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
       {/* <Header /> */}
      <NavBar />
+     <Contacts/>
      {/* <Landing/> */}
-     <Service />
+    {/* <Service /> */}
     </div>
   );
 }
