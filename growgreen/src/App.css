@@ -2,6 +2,7 @@
   background:10510E;
   color:white;
 }
+<<<<<<< HEAD
 /* navigation bar */
 .carousel-item {
   height: 100vh;
@@ -91,4 +92,14 @@
 }
 .fit-image{
   object-fit: cover;
+=======
+.blog-card{
+  min-height:100%;
+  margin-top: 10px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: .5rem;
+  column-count: 3
+>>>>>>> 5a09d75 (modify blogs)
 }
