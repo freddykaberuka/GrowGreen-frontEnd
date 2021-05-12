@@ -8,11 +8,14 @@ import Service from './components/pages/Services'
 import landings from './assets/images/ggr-background1.jpg'
 import Contacts from './components/pages/Contacts';
 import Gallery from './components/pages/Gallery';
+import NewNav from './components/pages/newNav';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
+      
       {/* <Header /> */}
-     <NavBar />
+     {/* <NavBar /> */}
+     <NewNav/>
      {/* <Contacts/> */}
      <Gallery/>
     </div>

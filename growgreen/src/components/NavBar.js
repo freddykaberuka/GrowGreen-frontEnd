@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 function NavBar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-success nav justify-content-center">
+        <nav class="navbar navbar-expand-lg nav justify-content-center navigation">
   <div class=".text-body">
   <a class="nav-link active navbar-brand" aria-current="page" href="#">HOME</a>
   </div>
