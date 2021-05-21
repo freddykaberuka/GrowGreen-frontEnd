@@ -13,6 +13,7 @@ import { Card } from 'react-bootstrap';
 import Ads from './components/pages/govAd/advertisement';
 import Latest from './components/pages/latestBlog/latest';
 import Subscribe from './components/pages/subscribe/subscribe';
+import Footer1 from './components/pages/footer1/footer1';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
@@ -27,6 +28,7 @@ function App() {
      <Latest/>
      <br/><br/>
      <Subscribe/>
+     <Footer1/>
     </div>
   );
 }
