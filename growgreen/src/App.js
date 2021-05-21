@@ -8,13 +8,25 @@ import Service from './components/pages/Services'
 import landings from './assets/images/ggr-background1.jpg'
 import Contacts from './components/pages/Contacts';
 import Gallery from './components/pages/Gallery';
+import NewNav from './components/pages/newNav';
+import { Card } from 'react-bootstrap';
+import Ads from './components/pages/govAd/advertisement';
+import Latest from './components/pages/latestBlog/latest';
+import Subscribe from './components/pages/subscribe/subscribe';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
+      
       {/* <Header /> */}
-     <NavBar />
+     {/* <NavBar /> */}
+     <NewNav/>
      {/* <Contacts/> */}
      <Gallery/>
+     {/* <Card/> */}
+     <Ads/>
+     <Latest/>
+     <br/><br/>
+     <Subscribe/>
     </div>
   );
 }
