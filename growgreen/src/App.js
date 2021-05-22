@@ -14,6 +14,7 @@ import Ads from './components/pages/govAd/advertisement';
 import Latest from './components/pages/latestBlog/latest';
 import Subscribe from './components/pages/subscribe/subscribe';
 import Footer1 from './components/pages/footer1/footer1';
+import Footer from './components/pages/footer/footer';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
@@ -29,6 +30,7 @@ function App() {
      <br/><br/>
      <Subscribe/>
      <Footer1/>
+     <Footer/>
     </div>
   );
 }
