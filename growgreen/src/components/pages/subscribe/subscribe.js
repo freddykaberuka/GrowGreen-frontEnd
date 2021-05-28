@@ -13,6 +13,6 @@ function Subscribe() {
                 <button type="submit" class="btn btn-primary mb-2">Enter Your Email</button>
             </form>
         </div>
-    )
+    ) 
 }
 export default Subscribe

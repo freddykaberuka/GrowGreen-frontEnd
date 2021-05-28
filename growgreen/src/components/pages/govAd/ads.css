@@ -1,5 +1,9 @@
-.card{
+.Ads{
     background-color:hsl(120, 100%, 25%);
-    height:20;
     color:white;
+    height:40vh;
+    margin-top:30px;
+}
+.blockquote{
+    font-size: xx-large;
 }
