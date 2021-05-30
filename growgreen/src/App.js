@@ -15,6 +15,7 @@ import Latest from './components/pages/latestBlog/latest';
 import Subscribe from './components/pages/subscribe/subscribe';
 import Footer1 from './components/pages/footer1/footer1';
 import Footer from './components/pages/footer/footer';
+import About from './components/pages/about/about';
 function App() {
   return (
     <div className="App" styles={{ backgroundImage:`url(${landings})` }}>
@@ -23,11 +24,12 @@ function App() {
      {/* <NavBar /> */}
      <NewNav/>
      {/* <Contacts/> */}
-     <Gallery/>
+     {/* <Gallery/> */}
      {/* <Card/> */}
-     <Ads/>
-     <Latest/>
+     {/* <Ads/> */}
+     {/* <Latest/> */}
      <br/><br/>
+     <About/>
      <Subscribe/>
      <Footer1/>
      <Footer/>
