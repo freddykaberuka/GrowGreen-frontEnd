@@ -1,4 +1,4 @@
-import landings from '../../assets/images/ggr-background1.jpg'
+import landings from '../../../assets/images/ggr-background1.jpg'
 import React from 'react'
 
 function landing() {

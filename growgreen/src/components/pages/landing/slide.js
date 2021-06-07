@@ -1,5 +1,5 @@
 import React from 'react'
-import bg1 from './../../assets/images/ggr-background1.jpg'
+import bg1 from '../../../assets/images/ggr-background1.jpg'
 function slides() {
     return (
         <div>
