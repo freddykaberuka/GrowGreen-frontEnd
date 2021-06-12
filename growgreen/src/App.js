@@ -13,6 +13,9 @@ import Subscribe from './components/pages/subscribe/subscribe';
 import Footer1 from './components/pages/footer1/footer1';
 import Footer from './components/pages/footer/footer';
 import Sliders from './components/pages/landing/sliders';
+import Impact from './components/pages/landing/short-info/impact';
+import Secondsect from './components/pages/landing/secondsection/secondsection';
+// import ContentInfo from './components/pages/landing/short-info/contentInfo';
 function App() {
   return (
     <div className="App">
@@ -22,10 +25,15 @@ function App() {
      {/* <NewNav/> */}
      {/* <Contacts/> */}
      <Sliders/>
-     <Gallery/>
+     {/* <Impact/> */}
+     {/* <ContentInfo/> */}
+     {/* <Gallery/> */}
+     
      {/* <Card/> */}
+     <Secondsect/>
      <Ads/>
      <Latest/>
+     
      <br/><br/>
      <Subscribe/>
      <Footer1/>
