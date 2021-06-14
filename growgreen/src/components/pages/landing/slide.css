@@ -12,6 +12,11 @@
 	top: 0;
 	z-index: 99999;
 	padding:25px 0;
+	background-color: green;
+	width:90vw;
+	height:9%;
+	float: center;
+	margin-left:5%;
 }
 .navbar .logo{
 	font-size: 1.5em;
@@ -24,7 +29,7 @@
 }
 .navbar ul.nav li.active,
 .navbar ul.nav li:hover{
-	background:rgba(255, 255, 255, 0.5);
+	background:rgb(8, 8, 8);
 	color: #000;
 
 }
@@ -38,6 +43,8 @@
 	color: #000;
 }
 .readmore,.contactus{
+	border-radius: 10%;
+	background-color: green;
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -74,7 +81,7 @@
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('../../../assets/images/ggr-backound2.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
