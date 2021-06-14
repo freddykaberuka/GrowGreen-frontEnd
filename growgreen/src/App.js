@@ -15,6 +15,7 @@ import Footer from './components/pages/footer/footer';
 import Sliders from './components/pages/landing/sliders';
 import Impact from './components/pages/landing/short-info/impact';
 import Secondsect from './components/pages/landing/secondsection/secondsection';
+import Home from './components/pages/landing/home';
 // import ContentInfo from './components/pages/landing/short-info/contentInfo';
 function App() {
   return (
@@ -24,17 +25,13 @@ function App() {
      {/* <NavBar /> */}
      {/* <NewNav/> */}
      {/* <Contacts/> */}
-     <Sliders/>
+     <Home/>
      {/* <Impact/> */}
      {/* <ContentInfo/> */}
      {/* <Gallery/> */}
      
      {/* <Card/> */}
-     <Secondsect/>
-     <Ads/>
-     <Latest/>
      
-     <br/><br/>
      <Subscribe/>
      <Footer1/>
      <Footer/>
