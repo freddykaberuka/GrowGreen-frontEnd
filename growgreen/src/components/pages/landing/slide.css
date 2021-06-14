@@ -40,7 +40,7 @@
 }
 .navbar ul.nav li.active a,
 .navbar ul.nav li:hover a{
-	color: #000;
+	color: rgb(247, 245, 245);
 }
 .readmore,.contactus{
 	background-color: green;
