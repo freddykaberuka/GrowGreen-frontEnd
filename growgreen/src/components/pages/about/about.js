@@ -1,4 +1,5 @@
 import React from 'react'
+import Purpose from './purpose'
 import WelcImage from './welcImage'
 import Welcome from './welcome'
 
@@ -10,7 +11,9 @@ function About() {
             <Welcome/>
             <WelcImage/>
             </div>
-            
+            <div className="">
+                <Purpose/>
+            </div>
         </div>
     )
 }
