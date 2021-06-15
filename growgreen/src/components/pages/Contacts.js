@@ -1,7 +1,8 @@
 import React from 'react'
+import './contact.css'
 function Contacts() {
     return (
-        <div>
+        <div className='contact'>
             {/* <div className="col-6"> */}
             <form className="col-sm-6 mt-5">
                 <div className="form-group">
