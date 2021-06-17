@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Home from './components/pages/landing/home';
 import Blog from './components/pages/blog/blog'
 <<<<<<< HEAD
@@ -25,6 +26,8 @@ import Footer from './components/pages/footer/footer';
 import Sliders from './components/pages/landing/sliders';
 import Impact from './components/pages/landing/short-info/impact';
 import Secondsect from './components/pages/landing/secondsection/secondsection';
+=======
+>>>>>>> f95e30d (changing map size)
 import Home from './components/pages/landing/home';
 import Blog from './components/pages/blog/blog'
 >>>>>>> ce479b9 (modifie section 2 cards)

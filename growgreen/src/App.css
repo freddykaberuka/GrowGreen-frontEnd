@@ -1,3 +1,6 @@
+*html,body{
+  width:100%;
+}
 .navigation{
   background:10510E;
   color:white;

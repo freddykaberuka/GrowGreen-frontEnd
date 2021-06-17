@@ -7,7 +7,7 @@ function Latest() {
     return (
         <div>
             <div className="card-deck mt-5 latest-article">
-                <h1 className='ml-2 pl-40 color'>Latest Blogs</h1>
+                <h1 className='ml-2 pl-40'><strong>Latest Blogs</strong></h1>
                 <div class="row g-4 mb-4 mt-3  justify-center">
   
   <div class="col-md-3">
