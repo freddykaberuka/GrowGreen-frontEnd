@@ -1,5 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
 import Links from './links'
+=======
+import Links from '../links'
+>>>>>>> 959f45c (add blog)
 import './slide.css'
 
 function Sliders() {

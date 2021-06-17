@@ -4,7 +4,7 @@ import image1 from '../../../../assets/images/planting.jpeg'
 function Wedo() {
     return (
         <div>
-            <div className="card-deck mt-3 mb-3 ml-5 h-15">
+            <div className="card-deck mt-3 mb-3 ml-5 h-15 d-inline-block">
                 <figure class="image-block">
 	                <img src={image1} alt="" />
 	                <figcaption>
