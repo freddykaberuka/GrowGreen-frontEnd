@@ -1,8 +1,9 @@
 import React from 'react'
 import Impact from './Impact'
-import './ticket.scss'
+import './section2.scss'
 import Wedo from './Wedo'
 import WorkWithUs from './workWithUs'
+
 
 
 function Secondsect() {
