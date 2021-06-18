@@ -17,7 +17,6 @@ function Home() {
            <Subscribe/>
            <Footer1/>
            <Footer/>
-           <br/><br/>
         </div>
     )
 }

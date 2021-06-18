@@ -32,11 +32,21 @@ import Home from './components/pages/landing/home';
 import Blog from './components/pages/blog/blog'
 >>>>>>> ce479b9 (modifie section 2 cards)
 import {Route, BrowserRouter as Router} from 'react-router-dom'
+<<<<<<< HEAD
 >>>>>>> 959f45c (add blog)
 function App() {
   return (
     <div className="App">
       
+=======
+import Topheader from './components/topheader';
+function App() {
+  return (
+    <div className="App">
+      {/* <Topheader/> */}
+      
+      <div/>
+>>>>>>> a27d57d (add tophead page and modifie)
       <Router>
 <<<<<<< HEAD
         <Switch>
@@ -48,7 +58,11 @@ function App() {
 =======
         <Route path='/' exact component={Home} />
         <Route path='/article' component={Blog}/>
+<<<<<<< HEAD
 >>>>>>> 959f45c (add blog)
+=======
+        <Route path='/header' component ={Topheader}/>
+>>>>>>> a27d57d (add tophead page and modifie)
       </Router>
     </div>
   );
