@@ -40,13 +40,17 @@ function App() {
       
 =======
 import Topheader from './components/topheader';
+import About from './components/pages/about/about';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       {/* <Topheader/> */}
       
       <div/>
 >>>>>>> a27d57d (add tophead page and modifie)
+=======
+>>>>>>> 6ee08a5 (about page)
       <Router>
 <<<<<<< HEAD
         <Switch>
@@ -59,10 +63,14 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/article' component={Blog}/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 959f45c (add blog)
 =======
         <Route path='/header' component ={Topheader}/>
 >>>>>>> a27d57d (add tophead page and modifie)
+=======
+        <Route path='/about' component ={About}/>
+>>>>>>> 6ee08a5 (about page)
       </Router>
     </div>
   );
