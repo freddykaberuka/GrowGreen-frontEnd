@@ -8,7 +8,7 @@ import WorkWithUs from './workWithUs'
 
 function Secondsect() {
     return (
-        <div className="d-flex  justify-content-center secondsec">
+        <div className="d-flex mt-3 justify-content-center secondsec">
            <Wedo/>
            <Impact/>
            <WorkWithUs/>

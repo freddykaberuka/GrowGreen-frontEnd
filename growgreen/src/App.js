@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './components/pages/landing/home';
 import Blog from './components/pages/blog/blog'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
 import Topheader from './components/topheader';
 import About from './components/pages/about/about';
@@ -39,11 +40,15 @@ function App() {
     <div className="App">
       
 =======
+=======
+import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
+>>>>>>> 0853705 (modifie cards)
 import Topheader from './components/topheader';
 import About from './components/pages/about/about';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
 <<<<<<< HEAD
       {/* <Topheader/> */}
       
@@ -51,6 +56,9 @@ function App() {
 >>>>>>> a27d57d (add tophead page and modifie)
 =======
 >>>>>>> 6ee08a5 (about page)
+=======
+      
+>>>>>>> 0853705 (modifie cards)
       <Router>
 <<<<<<< HEAD
         <Switch>

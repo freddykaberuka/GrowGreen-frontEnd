@@ -7,7 +7,10 @@ $base-duration: 500ms;
 $color-1: #2c3e50;
 $color-2: #1abc9c;
 $color-3: #2ecc71;
-
+h1{
+    text-align: center;
+    padding-top:22px;
+}
 // Breakpoints
 $sm: new-breakpoint(min-width 320px);
 $med: new-breakpoint(min-width 768px);
