@@ -11,6 +11,7 @@ import Topheader from './components/topheader';
 import About from './components/pages/about/about';
 import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Contact from './components/pages/contact/contact';
+<<<<<<< HEAD
 =======
 // import ContentInfo from './components/pages/landing/short-info/contentInfo';
 =======
@@ -45,6 +46,8 @@ import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
 >>>>>>> 0853705 (modifie cards)
 import Topheader from './components/topheader';
 import About from './components/pages/about/about';
+=======
+>>>>>>> db899fb (add contact form)
 function App() {
   return (
     <div className="App">
@@ -61,12 +64,16 @@ function App() {
 >>>>>>> 0853705 (modifie cards)
       <Router>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db899fb (add contact form)
         <Switch>
           <Route path='/' exact component={Home} exact={ true }/>
           <Route path='/article' component={Blog}/>
           <Route path='/about' component ={About}/>
           <Route path='/contact' component ={Contact}/>
         </Switch>
+<<<<<<< HEAD
 =======
         <Route path='/' exact component={Home} />
         <Route path='/article' component={Blog}/>
@@ -79,6 +86,8 @@ function App() {
 =======
         <Route path='/about' component ={About}/>
 >>>>>>> 6ee08a5 (about page)
+=======
+>>>>>>> db899fb (add contact form)
       </Router>
     </div>
   );
