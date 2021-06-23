@@ -1,11 +1,13 @@
 import React from 'react'
+import Header from '../../header/header'
 import Footer from '../footer/footer'
 import Links from '../links'
 import './contact.css'
 function Contact() {
     return (
         <div>
-            <Links/>
+            <Header/>
+            {/* <Links/> */}
             <div className='contact pl-14'>
                 <h2>Get in Touch</h2>
             <form className="col-sm-6 mt-5">
