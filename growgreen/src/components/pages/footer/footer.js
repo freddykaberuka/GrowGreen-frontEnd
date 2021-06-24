@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div>
             
-            <footer className="mainfooter copy pt-3" role="contentinfo">
+            <footer className="mainfooter w-100 mb-0 pb-0 copy pt-3" role="contentinfo">
                 <div className="footer-middle">
                     <div className="container">
                         <div className="row">

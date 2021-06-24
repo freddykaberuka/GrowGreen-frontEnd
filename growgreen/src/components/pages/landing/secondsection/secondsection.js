@@ -1,13 +1,14 @@
 import React from 'react'
 import Impact from './Impact'
-import './ticket.scss'
+import './section2.scss'
 import Wedo from './Wedo'
 import WorkWithUs from './workWithUs'
 
 
+
 function Secondsect() {
     return (
-        <div className="d-flex  justify-content-center secondsec">
+        <div className="d-flex mt-3 justify-content-center secondsec">
            <Wedo/>
            <Impact/>
            <WorkWithUs/>

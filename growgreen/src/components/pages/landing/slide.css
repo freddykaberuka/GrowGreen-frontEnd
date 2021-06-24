@@ -14,7 +14,7 @@
 	padding:25px 0;
 	background-color: green;
 	width:90vw;
-	height:9%;
+	height:10%;
 	float: center;
 	margin-left:5%;
 }
@@ -40,7 +40,7 @@
 }
 .navbar ul.nav li.active a,
 .navbar ul.nav li:hover a{
-	color: #000;
+	color: rgb(247, 243, 243);
 }
 .readmore,.contactus{
 	background-color: green;
