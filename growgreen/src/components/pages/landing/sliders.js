@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../../../../src/components/header/header'
 import Links from '../links'
 import './slide.css'
 
@@ -7,7 +8,8 @@ function Sliders() {
         <div>
             <div className="container-fluid">
 		    <div className="row">
-			<Links/>
+				<Header/>
+			{/* <Links/> */}
 
 			{/* slider banner	  */}
 

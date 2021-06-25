@@ -18,8 +18,6 @@ function About() {
                 <Welcome/>
             </div>
             <SecondAbout/>
-            {/* <Slidess/> */}
-            {/* <Subscribe/> */}
             <Footer1/>
             <Footer/>
         </div>
