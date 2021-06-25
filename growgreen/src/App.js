@@ -8,6 +8,7 @@ import About from './components/pages/about/about';
 import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Contact from './components/pages/contact/contact';
 import Gallery from './components/pages/gallery/gallery';
+import SingleWedo from './components/pages/landing/secondsection/singleWedo';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' component ={About}/>
           <Route path='/contact' component ={Contact}/>
           <Route path='/photo' component ={Gallery} />
+          <Route path='/wedo' component={SingleWedo}/>
         </Switch>
       </Router>
     </div>
