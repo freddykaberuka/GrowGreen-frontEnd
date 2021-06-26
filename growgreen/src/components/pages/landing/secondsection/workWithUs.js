@@ -1,5 +1,8 @@
 import React from 'react'
 import image3 from '../../../../assets/images/thanks.jpeg'
+import SingleWork from './singleWork'
+import { Link } from 'react-router-dom'
+import './singles.css'
 
 function WorkWithUs() {
     return (
@@ -11,7 +14,7 @@ function WorkWithUs() {
                 
 		    			<h3>Work With Us</h3>
 						<p>Join Talented team doing work that matters</p>
-						<button>More Info</button>
+						<button><Link to='/work'>More Info</Link></button>
 					</figcaption>
 				</figure>
 			</div> 
