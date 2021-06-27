@@ -2,3 +2,8 @@
     background-color:hsl(120, 100%, 25%);
     color:white;
 }
+.heading{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}

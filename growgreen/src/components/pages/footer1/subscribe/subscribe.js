@@ -4,7 +4,7 @@ import './subscribe.css'
 function Subscribe() {
     return (
         <div class='subscribe'>
-            <h1 className='text-center mt-3 pt-4'>Subscribe To Our Newsletters</h1>
+            <h1 className='text-center mt-3 pt-4 heading'>Subscribe To Our Newsletters</h1>
             <form className="form-inline justify-content-center align-items-center">
                 
                 <div className="form-group mx-sm-3 mb-2 w-50">
