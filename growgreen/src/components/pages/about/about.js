@@ -13,7 +13,7 @@ function About() {
     return (
         <div>
             <Sliders/>
-            <h1>About Us</h1>
+            <h1 className='heading'>About Us</h1>
             <div className='d-flex mt-10'>
                 <Welcome/>
             </div>

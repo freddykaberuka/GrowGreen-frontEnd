@@ -2,7 +2,7 @@ h1{
     text-align: center;
     padding-top:22px;
 }
-/* .photoSlide{
-   width: 50%;
-   /* height:30px;  */
-/* } */ 
+.heading{
+    font-weight: 600;
+    font-size: xx-large;
+}
