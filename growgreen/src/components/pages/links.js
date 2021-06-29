@@ -3,15 +3,20 @@ import { NavLink } from 'react-router-dom'
 function Links() {
     return (
         <div>
-           <div className="col-md-10 navbar">
-				<ul className="nav">
-					<li className="nav-item active"><NavLink to="/" class="nav-link" exact={true}>Home</NavLink></li>
-					<li className="nav-item px-4"><NavLink to="/about" class="nav-link">About Us</NavLink></li>
-					<li className="nav-item px-4"><NavLink to="/article" class="nav-link">Blogs</NavLink></li>
-					<li className="nav-item px-4"><NavLink to="/photo" class="nav-link">Gallery</NavLink></li>
-					<li className="nav-item px-4"><NavLink to="/contact" class="nav-link">Contact Us</NavLink></li>
-				</ul>
-			</div> 
+			<nav class="col-md-12 navbar navbar-expand-md navbar-dark">
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+  				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  					<ul className="navbar-nav nav">
+						<li className="nav-item active"><NavLink to="/" class="nav-link" exact={true}>Home</NavLink></li>
+						<li className="nav-item px-4"><NavLink to="/about" class="nav-link">About Us</NavLink></li>
+						<li className="nav-item px-4"><NavLink to="/article" class="nav-link">Blogs</NavLink></li>
+						<li className="nav-item px-4"><NavLink to="/photo" class="nav-link">Gallery</NavLink></li>
+						<li className="nav-item px-4"><NavLink to="/contact" class="nav-link">Contact Us</NavLink></li>
+					</ul>
+  				</div>  
+			</nav>
         </div>
     )
 }
