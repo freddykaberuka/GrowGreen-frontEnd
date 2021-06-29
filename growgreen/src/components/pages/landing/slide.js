@@ -1,5 +1,6 @@
 import React from 'react'
 import bg1 from '../../../assets/images/ggr-background1.jpg'
+import bg2 from '../../../assets/images/cultivate.jpg'
 function slides() {
     return (
         <div>
@@ -25,7 +26,7 @@ function slides() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="https://i.postimg.cc/0y2F6Gpp/3.jpg" alt="Third slide"/>
+                        <img className="d-block w-100" src={bg2} alt="Third slide"/>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Slider One Item</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
