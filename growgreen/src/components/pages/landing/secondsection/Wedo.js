@@ -5,7 +5,7 @@ import SingleWedo from './singleWedo'
 function Wedo() {
     return (
         <div>
-			<div className="card-deck mb-3 d-inline-block">
+			<div className="card-deck mb-3 ml-5 d-inline-block">
             	<figure class="image-block">
 	        		<img src={image1} alt="" />
 	        		<figcaption>
