@@ -1,3 +1,9 @@
-.logo{
-    height:30px;
+@media screen and (max-width:375px) {
+	.headding{
+		display: none;
+	}
+    .logo{
+        width: 100%;
+    }
+    
 }

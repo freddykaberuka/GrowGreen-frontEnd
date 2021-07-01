@@ -4,11 +4,12 @@ import timer from '../../assets/images/timer-icon.jpg'
 import emails from '../../assets/images/email-icon.png'
 import calls from '../../assets/images/call-icon.png'
 import Links from '../../../src/components/pages/links'
+import './header.css'
 
 function Header() {
     return (
         <div>
-        <div className='d-flex'>
+        <div className='flex headding'>
            <div className="logo col-sm-1">
                 <img src={logo}/>
            </div>
