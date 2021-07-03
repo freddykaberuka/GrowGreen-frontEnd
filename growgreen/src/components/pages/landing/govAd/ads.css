@@ -1,7 +1,7 @@
 .Ads{
     background-color:hsl(120, 100%, 25%);
     color:white;
-    height:40vh;
+    min-height:40vh;
     margin-top:30px;
 }
 .blockquote{

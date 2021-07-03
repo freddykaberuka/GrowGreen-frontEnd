@@ -1,3 +1,5 @@
-h1{
-    color:black;
+@media screen and (max-width:375px){
+    .cards{
+        display:grid;
+    }
 }
