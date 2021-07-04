@@ -9,7 +9,7 @@ function Welcome() {
     return (
         <div className='welcomes d-flex pl-3 pr-3'>
             <div className="abouts d-flex">
-            <div className='welcome w-75 ml-4'>
+            <div className='welcome  ml-4'>
                 <h2 className='heading'>WELCOME TO GROW GREEN RWANDA</h2>
             <p>Grow Green Rwanda is a women non-govermental 
 organization that promotes climate-resilient peri-urban agriculture
