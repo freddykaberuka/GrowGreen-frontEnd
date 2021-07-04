@@ -11,7 +11,7 @@ import Gallery from './components/pages/gallery/gallery';
 import SingleWedo from './components/pages/landing/secondsection/singleWedo';
 import SingleImpact from './components/pages/landing/secondsection/singleImpact';
 import SingleWork from './components/pages/landing/secondsection/singleWork';
-import Blogging from './components/blog1';
+import Blogging from './components/pages/blog/blog1';
 function App() {
   return (
     <div className="App">

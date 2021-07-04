@@ -1,0 +1,28 @@
+.subform{
+    background-color: hsl(0, 11%, 89%);
+    margin-bottom: 10px;
+}
+.latest{
+    background-color: hsl(0, 11%, 89%);
+}
+ .copy {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .btn{
+      background-color:green;
+  }
+@media screen and (max-width:375px){
+    .blogs{
+        display:grid;
+    }
+    .allPage{
+        margin-left: 10px;
+        padding-left:10px;
+        margin-right: 10px;
+        padding-right:10px;
+        padding-top:10px;
+    }
+}

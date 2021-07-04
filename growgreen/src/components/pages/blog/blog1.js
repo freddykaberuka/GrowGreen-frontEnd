@@ -1,11 +1,11 @@
 import React from 'react'
-import image2 from '../assets/images/image3.jpg'
+import image2 from '../../../assets/images/image3.jpg'
 import SubscribeForm from './subscribeForm'
 import './form.css'
-import Header from './header/header'
-import Footer from './pages/footer/footer'
-import Footer1 from './pages/footer1/footer1'
-import Latest from './pages/landing/latestBlog/latest'
+import Header from '../../header/header'
+import Footer from '../footer/footer'
+import Footer1 from '../footer1/footer1'
+import Lates from '../landing/latestBlog/lates'
 function Blogging() {
     return (
         <div>
@@ -53,7 +53,10 @@ function Blogging() {
             </div>
             </div>
         </div>
-        <Latest/>
+        <div className='latest pb-4 pt-3'>
+            <h5 className='ml-10'>YOU MIGHT ALSO LIKE:</h5>
+        <Lates/>
+        </div>
         <Footer1/>
         <Footer/>
         </div>
