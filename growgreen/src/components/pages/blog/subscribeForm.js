@@ -7,7 +7,7 @@ function SubscribeForm() {
                 <p className='copy'><strong>Subscribe to our Newsletter</strong></p>
                 <h7>Sign up to receive updates on our work and the farmers we support!</h7>
                 
-                <div className="form-group">
+                <div className="form-group mt-8">
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
                     
                 </div>

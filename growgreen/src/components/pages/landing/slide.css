@@ -13,7 +13,7 @@
 	z-index: 99999;
 	/* padding:25px 0; */
 	background-color: green;
-	width:80vw;
+	width:70vw;
 	margin-left:10%;
 	margin-right:13%;
 }
@@ -21,7 +21,7 @@
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: 800;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
 
 .navbar ul.nav li.active,
