@@ -11,8 +11,9 @@
     padding: 10px;
     border-bottom: 1px solid #FFFFFF;
   }
-  .btn{
+  .formbtn{
       background-color:green;
+      color:white;
   }
 @media screen and (max-width:375px){
     .blogs{

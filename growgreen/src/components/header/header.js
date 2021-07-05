@@ -16,9 +16,9 @@ function Header() {
            <div className="logo col-sm-1">
                 <img src={logo}/>
            </div>
-    <div className="timing d-flex pt-3 px-16 ml-12"><div className='col-md-4 pt-4'><BsFillAlarmFill size={40} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Opening Time</strong><p><small>Mon-Sat:7:00-17:00</small></p></div></div>
-           <div className="emails d-flex pt-3 ml-16 px-16"><div className='col-md-3 pt-4'><BsFillEnvelopeOpenFill size={40} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Send us Email</strong><p><small>growgreenrwanda@gmail.com</small></p></div></div>
-           <div className="calls d-flex pt-3 ml-16 px-16"><div className='col-md-6 pt-4'><IoCallSharp size={40} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Call Us</strong><p><small>0781964133</small></p></div></div>
+    <div className="timing d-flex pt-3 px-10 ml-8 header_icon"><div className='col-md-4 pt-4'><BsFillAlarmFill size={35} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Opening Time</strong><p><small>Mon-Sat:7:00-17:00</small></p></div></div>
+           <div className="emails d-flex pt-3 ml-16 px-16 header_icon"><div className='col-md-3 pt-4'><BsFillEnvelopeOpenFill size={35} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Send us Email</strong><p><small>growgreenrwanda@gmail.com</small></p></div></div>
+           <div className="calls d-flex pt-3 ml-16 px-16 header_icon"><div className='col-md-6 pt-4'><IoCallSharp size={35} style={{ fill: 'green' }}/></div><div className='pt-3'><strong>Call Us</strong><p><small>0781964133</small></p></div></div>
         </div>
         <Links/>
         </div>

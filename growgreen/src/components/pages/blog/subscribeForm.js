@@ -23,7 +23,7 @@ function SubscribeForm() {
                     We will never give your information to other organizations. 
                     Please read our Privacy Policy for more.</label>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                <button type="submit" class="h-8 w-100 formbtn">Submit</button>
 
             </form>
         </div>
