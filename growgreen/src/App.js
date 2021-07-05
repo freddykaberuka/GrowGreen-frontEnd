@@ -11,6 +11,7 @@ import Gallery from './components/pages/gallery/gallery';
 import SingleWedo from './components/pages/landing/secondsection/singleWedo';
 import SingleImpact from './components/pages/landing/secondsection/singleImpact';
 import SingleWork from './components/pages/landing/secondsection/singleWork';
+import Blogging from './components/pages/blog/blog1';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
           <Route path='/wedo' component={SingleWedo}/>
           <Route path='/impact' component={SingleImpact}/>
           <Route path='/work' component={SingleWork}/>
+          <Route path='/singleblog' component={Blogging}/>
         </Switch>
       </Router>
     </div>
