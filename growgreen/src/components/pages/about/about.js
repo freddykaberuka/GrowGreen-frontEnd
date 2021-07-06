@@ -8,16 +8,24 @@ import Welcome from './welcome'
 import './about.css'
 import SecondAbout from './about2/secondAbout'
 import Footer1 from '../footer1/footer1'
+import Header from '../../header/header'
+import Abouts from './abouts'
+import Test from './test'
 
 function About() {
     return (
         <div>
-            <Sliders/>
-            <h1 className='heading'>About Us</h1>
-            <div className='d-flex mt-10'>
-                <Welcome/>
+            <div>
+            <Header/>
+            </div>
+            <Abouts/>
+            <div className='flex mt-10 justify-center'>
+                
+                {/* <SecondAbout/> */}
+                <Test/>
             </div>
             <SecondAbout/>
+            
             <Footer1/>
             <Footer/>
         </div>
