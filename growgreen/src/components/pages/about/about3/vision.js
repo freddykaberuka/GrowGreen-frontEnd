@@ -1,16 +1,17 @@
 import React from 'react'
-import image2 from '../../../../assets/images/image3.jpg'
+import image1 from '../../../../assets/images/planting.jpeg'
 
-function Purpose() {
+function Vision() {
     return (
         <div>
+            <div>
            <div className="card-deck mb-3 d-inline-block">
             <figure class="image-block">
-	        <img src={image2} alt="" />
+	        <img src={image1} alt="" />
 	        <figcaption>
                 
 		    <h3>
-			Purpose and Value
+			Our Vision
 		</h3>
 		<p>Our Impact is Our North Star,In Everything that we do,we seek to generate Positive impact in the lives of Famers.</p>
 		<button>
@@ -20,7 +21,8 @@ function Purpose() {
 </figure>
 </div> 
         </div>
+        </div>
     )
 }
 
-export default Purpose
+export default Vision

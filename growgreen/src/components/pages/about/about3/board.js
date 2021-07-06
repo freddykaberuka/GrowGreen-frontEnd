@@ -1,7 +1,7 @@
 import React from 'react'
 import image2 from '../../../../assets/images/image3.jpg'
 
-function Purpose() {
+function Board() {
     return (
         <div>
            <div className="card-deck mb-3 d-inline-block">
@@ -10,7 +10,7 @@ function Purpose() {
 	        <figcaption>
                 
 		    <h3>
-			Purpose and Value
+			Board and Advisors
 		</h3>
 		<p>Our Impact is Our North Star,In Everything that we do,we seek to generate Positive impact in the lives of Famers.</p>
 		<button>
@@ -23,4 +23,4 @@ function Purpose() {
     )
 }
 
-export default Purpose
+export default Board

@@ -3,6 +3,7 @@ import Leadership from './leadership'
 import Mission from './mission'
 import Purpose from './purpose'
 import './section1.scss'
+import Vision from '../about3/vision'
 
 
 
