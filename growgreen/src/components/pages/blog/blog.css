@@ -1,6 +1,6 @@
 .article-body{
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 60px;
+    padding-left:100px;
 }
 .card-image{
     height:40%;
@@ -8,6 +8,17 @@
 .cards{
     height:100%;  
 }
+.cads{
+    max-width: 540px;
+    border-bottom: 1px solid #979595;
+}
 .card-bod{
     height:200px;
+}
+.intro{
+    color: #222;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 7px;
 }

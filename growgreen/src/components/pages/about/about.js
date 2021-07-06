@@ -19,10 +19,6 @@ function About() {
             <Header/>
             </div>
             <Abouts/>
-            <div className='flex mt-10 justify-center'>
-                
-                {/* <SecondAbout/> */}
-            </div>
             <SecondAbout/>
             <ThirdAbout/>
             <Footer1/>
