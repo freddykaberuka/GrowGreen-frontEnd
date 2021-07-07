@@ -9,7 +9,7 @@ function Article() {
     return (
         <div className="article-body mt-4">
           <h2 className='intro mb-4'>Latest Articles</h2>
-           <div className='cads link-item'>
+           <div className='cads'>
              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
@@ -28,6 +28,7 @@ function Article() {
             </Link>
             </div>
             <div className='cads'>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -42,8 +43,10 @@ function Article() {
               </div>
             </div>
             </div>
+            </Link>
             </div>
             <div className='cads'>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -58,8 +61,10 @@ function Article() {
               </div>
             </div>
             </div>
+            </Link>
             </div>
             <div className='cads'>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3 images">
@@ -74,8 +79,10 @@ function Article() {
               </div>
             </div>
             </div>
+            </Link>
             </div>
             <div className='cads'>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -90,6 +97,7 @@ function Article() {
               </div>
             </div>
             </div>
+            </Link>
             </div>
             <spam>1/3</spam>
             <div className='flex justify-center'>
