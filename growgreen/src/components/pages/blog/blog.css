@@ -1,7 +1,7 @@
 .article-body{
     margin-left: 60px;
     padding-left:100px;
-}
+} 
 .card-image{
     height:40%;
 }
@@ -9,8 +9,10 @@
     height:100%;  
 }
 .cads{
-    max-width: 540px;
+    /* max-width: 540px; */
     border-bottom: 1px solid #979595;
+    margin-right:16px;
+    width:70%;
 }
 .card-bod{
     height:200px;
@@ -21,4 +23,31 @@
     font-size: 32px;
     line-height: 1.2;
     margin-bottom: 7px;
+}
+.heading-item{
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 14px;
+    transition: color 250ms ease 0s;
+}
+.listing__item__description {
+    color: #222;
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+.images{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.listing__item__meta {
+    color: #222;
+    font-size: 15px;
+    margin-bottom: 28px;
+    color: rgba(34, 34, 34, 0.6);
+}
+.next-btn{
+    background-color: darkblue;
+    border-color: rgb(19, 214, 107);
 }
