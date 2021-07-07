@@ -8,7 +8,7 @@ function Lates() {
     return (
         <div className='flex justify-center cards'>
           <div class="col-sm-3">
-            <Link to='/singleBlog' style={{ textDecoration: 'none' }}>
+            <Link to='/singleBlog' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
                 <div class="card-body">
@@ -19,7 +19,7 @@ function Lates() {
             </div>
             
             <div class="col-sm-3">
-              <Link to ='#' style={{ textDecoration: 'none' }}>
+              <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
                 <div class="card-body">
@@ -29,7 +29,7 @@ function Lates() {
               </Link>
             </div>
             <div class="col-sm-3">
-              <Link to ='#' style={{ textDecoration: 'none' }}>
+              <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
                 <div class="card-body">
