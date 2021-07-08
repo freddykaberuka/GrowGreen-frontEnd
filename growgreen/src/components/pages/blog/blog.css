@@ -48,6 +48,7 @@
     color: rgba(34, 34, 34, 0.6);
 }
 .next-btn{
-    background-color: darkblue;
+    background-color: rgb(238, 238, 241);
     border-color: rgb(19, 214, 107);
+    color:black;
 }
