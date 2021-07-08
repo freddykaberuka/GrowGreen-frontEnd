@@ -11,15 +11,15 @@ function SinglePurpose() {
     return (
         <div>
             <Header/>
-            <div className='flex'>
+            <div className='all-content flex'>
             <div className='pages mb-6 pb-16'>
-                <p className='link-purpose mt-16 pt-6'>Home /About Us /Purpose and Values</p>
+                <p className='link-purpose mt-16 pt-6'><small><i>Home /About Us /Purpose and Values</i></small></p>
             <h1 className='head-purpose mt-4'>Purpose and Values</h1>
             <div className='single-content'>
             <div className='imageValue'>
                 <img src={image2}/>
             </div>
-            <small className='image-detail'>One Acre Fund client Susan Wabune receives the seed and fertilizer she purchased on credit.</small>
+            <small className='image-detail'>Grow green Rwanda client Freddy receives the seed and fertilizer he purchased on credit.</small>
             <p className='mt-4'>We serve smallholder farmers. In everything we do, we place the Farmer First. We measure success in our ability 
                 to make more farmers more prosperous. We envision a future in which every farm family has the knowledge and means 
                 to achieve big harvests,support healthy families, and cultivate rich soil.</p>
@@ -46,7 +46,7 @@ function SinglePurpose() {
                 </ul>
 </div>
 </div>
-<div className='w-75 mt-20 pt-6'>
+<div className='aside-links w-75 mt-20 pt-6'>
     <Aside/>
 <SubscribeForm/>
 </div>

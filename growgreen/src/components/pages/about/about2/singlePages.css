@@ -22,12 +22,46 @@
 .listing-purpose li{
     margin-top:16px;
 }
+.listing-aside li{
+    text-decoration:none;
+    color:black;
+}
 .line-cads, .line-cads li{
     /* max-width: 540px; */
     border-bottom: 1px solid #979595;
     margin-right:16px;
     width:70%; 
 }
+h1, h2, h3, h4, h5 {
+    font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 0 14px;
+}
+.line-cads h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 0 14px;
+    font-weight: 500;
+}
+
 /* .image-detail{
     border-bottom: 2px solid #333232;
 } */
+@media screen and (max-width:375px){
+    .all-content{
+        display:grid;
+    }
+    .imageValue img{
+        height:40vh;
+        width:85vw;
+    }
+    .aside{
+        margin-left:26px;
+        padding-left:16px;
+    }
+    .aside-links{
+        margin-top:0;
+        padding-top:0;
+    }
+}
