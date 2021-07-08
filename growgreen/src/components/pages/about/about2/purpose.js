@@ -1,5 +1,6 @@
 import React from 'react'
 import image2 from '../../../../assets/images/image3.jpg'
+import { Link } from 'react-router-dom'
 
 function Purpose() {
     return (
@@ -14,7 +15,7 @@ function Purpose() {
 		</h3>
 		<p>Our Impact is Our North Star,In Everything that we do,we seek to generate Positive impact in the lives of Famers.</p>
 		<button>
-			More Info
+			<Link to='/purpose' style={{textDecoration:'none', color:'white'}}>Found out More</Link>
 		</button>
 	</figcaption>
 </figure>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './singlePages.css'
 import { Link } from 'react-router-dom'
-import Purpose from './purpose'
+import Purpose from '../about2/purpose'
 
 function Aside() {
     return (
