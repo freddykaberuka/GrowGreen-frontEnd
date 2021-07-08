@@ -1,0 +1,33 @@
+.imageValue img{
+    height:70vh;
+    width:50vw;
+    background-color:green;
+    object-fit: cover;
+	object-position: center;
+}
+.link-purpose{
+    text-shadow: 1px 1px 1px rgb(255 255 255 / 80%);
+}
+
+.pages{
+    margin-left:16px;
+    padding-left:16px;
+}
+.head-purpose{
+    float:left;
+}
+/* .single-content{
+    width:60%;
+} */
+.listing-purpose li{
+    margin-top:16px;
+}
+.line-cads, .line-cads li{
+    /* max-width: 540px; */
+    border-bottom: 1px solid #979595;
+    margin-right:16px;
+    width:70%; 
+}
+/* .image-detail{
+    border-bottom: 2px solid #333232;
+} */

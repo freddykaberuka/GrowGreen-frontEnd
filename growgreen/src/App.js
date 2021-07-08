@@ -12,6 +12,7 @@ import SingleWedo from './components/pages/landing/secondsection/singleWedo';
 import SingleImpact from './components/pages/landing/secondsection/singleImpact';
 import SingleWork from './components/pages/landing/secondsection/singleWork';
 import Blogging from './components/pages/blog/blog1';
+import SinglePurpose from './components/pages/about/about2/singlePurpose';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route path='/impact' component={SingleImpact}/>
           <Route path='/work' component={SingleWork}/>
           <Route path='/singleblog' component={Blogging}/>
+          <Route path='/singleValue' component={SinglePurpose}/>
         </Switch>
       </Router>
     </div>

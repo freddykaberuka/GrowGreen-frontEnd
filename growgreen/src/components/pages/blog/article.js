@@ -10,7 +10,7 @@ function Article() {
         <div className="article-body mt-4">
           <h2 className='intro mb-4'>Latest Articles</h2>
            <div className='cads'>
-             <Link to="#" style={{ textDecoration: 'none', color:'black' }}>
+             <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -28,7 +28,7 @@ function Article() {
             </Link>
             </div>
             <div className='cads'>
-              <Link to="#" style={{ textDecoration: 'none', color:'black' }}>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -46,7 +46,7 @@ function Article() {
             </Link>
             </div>
             <div className='cads'>
-              <Link to="#" style={{ textDecoration: 'none', color:'black' }}>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
@@ -64,7 +64,7 @@ function Article() {
             </Link>
             </div>
             <div className='cads'>
-              <Link to="#" style={{ textDecoration: 'none', color:'black' }}>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3 images">
@@ -82,7 +82,7 @@ function Article() {
             </Link>
             </div>
             <div className='cads'>
-              <Link to="#" style={{ textDecoration: 'none', color:'black' }}>
+              <Link to="#" style={{ textDecoration: 'none' }}>
             <div className="mb-3 mt-3">
             <div className="row g-0">
               <div className="col-lg-3">
