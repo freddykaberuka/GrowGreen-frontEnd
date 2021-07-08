@@ -1,7 +1,6 @@
 .imageValue img{
     height:70vh;
     width:50vw;
-    background-color:green;
     object-fit: cover;
 	object-position: center;
 }
@@ -14,7 +13,7 @@
     padding-left:16px;
 }
 .head-purpose{
-    float:left;
+    text-align:left;
 }
 /* .single-content{
     width:60%;

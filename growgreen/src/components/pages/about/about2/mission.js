@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from '../../../../assets/images/planting.jpeg'
+import { Link } from 'react-router-dom'
 
 function Mission() {
     return (
@@ -9,11 +10,11 @@ function Mission() {
 	                <img src={image1} alt="" />
 	                <figcaption>
 		                <h3>
-			                Mission
+			                Vision and Mission
 		                </h3>
-		                <p>A vegetable garden, in the beginning, looks promising, and then after all little by little, it grows. Nothing but vegetables😍</p>
+		                <p>Our Impact is Our North Star,In Everything that we do,we seek to generate Positive impact in the lives of Famers.</p>
 		                <button>
-			                More Info
+			                <Link to='/mission' style={{textDecoration:'none', color:'white'}}>Found out More</Link>
 		                </button>
 	                </figcaption>
                 </figure>

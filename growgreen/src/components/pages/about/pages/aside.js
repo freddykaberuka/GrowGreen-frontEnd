@@ -5,7 +5,7 @@ import Purpose from '../about2/purpose'
 
 function Aside() {
     return (
-        <div className='mt-20 aside'>
+        <div className='mt-20 mb-4 aside'>
             <h5 className='line-cads'>INSIDE ABOUT US</h5>
             <ul className="listing-aside line-cads" style={{textDecoration: 'none', color:'black'}}>
                 <li><Link to='#'>Purpose and Values</Link></li>
