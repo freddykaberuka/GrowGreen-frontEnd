@@ -14,6 +14,7 @@ import SingleWork from './components/pages/landing/secondsection/singleWork';
 import Blogging from './components/pages/blog/blog1';
 import SinglePurpose from './components/pages/about/pages/singlePurpose';
 import SingleMission from './components/pages/about/pages/singleMission';
+import SingleLeadership from './components/pages/about/pages/singleLeadership';
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
           <Route path='/singleblog' component={Blogging}/>
           <Route path='/purpose' component={SinglePurpose}/>
           <Route path='/mission' component={SingleMission}/>
+          <Route path='/leadership' component={SingleLeadership}/>
         </Switch>
       </Router>
     </div>
