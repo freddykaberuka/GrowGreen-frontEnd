@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from '../../../../assets/images/planting.jpeg'
+import { Link } from 'react-router-dom'
 
 function Contact() {
     return (
@@ -11,9 +12,9 @@ function Contact() {
 		                <h3>
 			                Contact us
 		                </h3>
-		                <p>A vegetable garden, in the beginning, looks promising, and then after all little by little, it grows. Nothing but vegetables😍</p>
+		                <p>Contact us with Messaging and email</p>
 		                <button>
-			                More Info
+			                <Link to='/contact' style={{textDecoration:'none', color:'white'}}>Found out More</Link>
 		                </button>
 	                </figcaption>
                 </figure>
