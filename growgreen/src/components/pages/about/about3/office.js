@@ -1,6 +1,6 @@
 import React from 'react'
 import image3 from '../../../../assets/images/thanks.jpeg'
-
+import { Link } from 'react-router-dom'
 function Offices() {
     return (
         <div>
@@ -14,7 +14,7 @@ function Offices() {
 		                </h3>
 		                <p>Join Talented team doing work that matters</p>
 		                <button>
-			                More Info
+			                <Link to='/office' style={{textDecoration:'none', color:'white'}}>Found out More</Link>
 		                </button>
 	                </figcaption>
                 </figure>

@@ -30,7 +30,7 @@ function SingleMission() {
 
 </div>
 </div>
-<div className='aside-links w-75 mt-20 pt-6'>
+<div className='aside-links mt-20 pt-6'>
     <Aside/>
 <SubscribeForm/>
 </div>
