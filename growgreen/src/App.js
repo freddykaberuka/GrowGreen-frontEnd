@@ -9,7 +9,7 @@ import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Contact from './components/pages/contact/contact';
 import Gallery from './components/pages/gallery/gallery';
 // import SingleWedo from './components/pages/landing/secondsection/singleWedo';
-import SingleImpact from './components/pages/landing/secondsection/singleImpact';
+// import SingleImpact from './components/pages/landing/secondsection/singleImpact';
 import SingleWork from './components/pages/landing/secondsection/singleWork';
 import Blogging from './components/pages/blog/blog1';
 import SinglePurpose from './components/pages/about/pages/singlePurpose';
@@ -17,6 +17,7 @@ import SingleMission from './components/pages/about/pages/singleMission';
 import SingleLeadership from './components/pages/about/pages/singleLeadership';
 import SingleOffice from './components/pages/about/pages/singleOffice';
 import SingleWedo from './components/pages/about/pages/singleWhatwedo';
+import SingleImpact from './components/pages/about/pages/singleImpact';
 function App() {
   return (
     <div className="App">
@@ -28,13 +29,14 @@ function App() {
           <Route path='/contact' component ={Contact}/>
           <Route path='/photo' component ={Gallery} />
           <Route path='/wedo' component={SingleWedo}/>
-          <Route path='/impact' component={SingleImpact}/>
+          {/* <Route path='/impact' component={SingleImpact}/> */}
           <Route path='/work' component={SingleWork}/>
           <Route path='/singleblog' component={Blogging}/>
           <Route path='/purpose' component={SinglePurpose}/>
           <Route path='/mission' component={SingleMission}/>
           <Route path='/leadership' component={SingleLeadership}/>
           <Route path='/whatwedo' component={SingleWedo}/>
+          <Route path='/impact' component={SingleImpact}/>
         </Switch>
       </Router>
     </div>
