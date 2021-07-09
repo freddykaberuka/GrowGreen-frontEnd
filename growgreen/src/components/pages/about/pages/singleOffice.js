@@ -7,6 +7,7 @@ import Footer from '../../footer/footer'
 import SubscribeForm from '../../blog/subscribeForm'
 import Aside from './aside'
 import image1 from '../../../../assets/images/planting.jpeg'
+import { Link } from 'react-router-dom'
 
 function SingleOffice() {
     return (
@@ -14,7 +15,7 @@ function SingleOffice() {
             <Header/>
             <div className='all-content flex'>
             <div className='pages mb-6 pb-16'>
-                <p className='link-purpose mt-16 pt-6'><small><i>Home /About Us /offices</i></small></p>
+                <p className='link-purpose mt-16 pt-6'><small><i><Link to='/'>Home </Link>/<Link to='/about'>About Us </Link>/<Link to='/office' style={{textDecoration:'none', color:'red'}}>Office</Link></i></small></p>
             <h1 className='head-purpose mt-4'>Our Office</h1>
             <div className='single-content'>
             <div className='imageValue'>

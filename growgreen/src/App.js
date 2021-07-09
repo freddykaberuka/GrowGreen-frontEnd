@@ -8,7 +8,7 @@ import About from './components/pages/about/about';
 import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Contact from './components/pages/contact/contact';
 import Gallery from './components/pages/gallery/gallery';
-import SingleWedo from './components/pages/landing/secondsection/singleWedo';
+// import SingleWedo from './components/pages/landing/secondsection/singleWedo';
 import SingleImpact from './components/pages/landing/secondsection/singleImpact';
 import SingleWork from './components/pages/landing/secondsection/singleWork';
 import Blogging from './components/pages/blog/blog1';
@@ -16,6 +16,7 @@ import SinglePurpose from './components/pages/about/pages/singlePurpose';
 import SingleMission from './components/pages/about/pages/singleMission';
 import SingleLeadership from './components/pages/about/pages/singleLeadership';
 import SingleOffice from './components/pages/about/pages/singleOffice';
+import SingleWedo from './components/pages/about/pages/singleWhatwedo';
 function App() {
   return (
     <div className="App">
@@ -33,7 +34,7 @@ function App() {
           <Route path='/purpose' component={SinglePurpose}/>
           <Route path='/mission' component={SingleMission}/>
           <Route path='/leadership' component={SingleLeadership}/>
-          <Route path='/office' component={SingleOffice}/>
+          <Route path='/whatwedo' component={SingleWedo}/>
         </Switch>
       </Router>
     </div>

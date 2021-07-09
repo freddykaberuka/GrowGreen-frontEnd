@@ -6,6 +6,7 @@ import Footer1 from '../../footer1/footer1'
 import Footer from '../../footer/footer'
 import SubscribeForm from '../../blog/subscribeForm'
 import Aside from './aside'
+import { Link } from 'react-router-dom'
 
 function SinglePurpose() {
     return (
@@ -13,7 +14,7 @@ function SinglePurpose() {
             <Header/>
             <div className='all-content flex'>
             <div className='pages mb-6 pb-16'>
-                <p className='link-purpose mt-16 pt-6'><small><i>Home /About Us /Purpose and Values</i></small></p>
+                <p className='link-purpose mt-16 pt-6'><small><i><Link to='/'>Home </Link>/<Link to='/about'>About Us </Link>/<Link to='/purpose' style={{textDecoration:'none', color:'red'}}>Leadership</Link></i></small></p>
             <h1 className='head-purpose mt-4'>Purpose and Values</h1>
             <div className='single-content'>
             <div className='imageValue'>

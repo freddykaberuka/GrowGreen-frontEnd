@@ -7,6 +7,7 @@ import Footer from '../../footer/footer'
 import SubscribeForm from '../../blog/subscribeForm'
 import Aside from './aside'
 import image1 from '../../../../assets/images/planting.jpeg'
+import { Link } from 'react-router-dom'
 
 function SingleMission() {
     return (
@@ -14,7 +15,7 @@ function SingleMission() {
             <Header/>
             <div className='all-content flex'>
             <div className='pages mb-6 pb-16'>
-                <p className='link-purpose mt-16 pt-6'><small><i>Home /About Us /vision</i></small></p>
+                <p className='link-purpose mt-16 pt-6'><small><i><Link to='/'>Home </Link>/<Link to='/about'>About Us </Link>/<Link to='/mission' style={{textDecoration:'none', color:'red'}}>Vision</Link></i></small></p>
             <h1 className='head-purpose mt-4'>Our Vision</h1>
             <p style={{fontSize:'26px'}}>Famer are the Answers</p>
             <div className='single-content'>
