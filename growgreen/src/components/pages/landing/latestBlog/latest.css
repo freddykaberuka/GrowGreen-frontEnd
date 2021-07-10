@@ -1,3 +1,7 @@
+.cards{
+    /* background-image: url('../../../../assets/images/3dtree.png'); */
+    
+}
 .card{
     cursor: pointer;
     text-decoration: none;

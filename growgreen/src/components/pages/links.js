@@ -15,7 +15,7 @@ function Links() {
 						
 						</li>
 						<li className="nav-item px-4 pl-3"><NavLink to="/article" class="nav-link">Blogs</NavLink></li>
-						<li className="nav-item px-4 pl-3"><NavLink to="/photo" class="nav-link">Gallery</NavLink></li>
+						<li className="nav-item px-4 pl-3"><NavLink to="#" class="nav-link">Gallery</NavLink></li>
 						<li className="nav-item px-4 pl-3"><NavLink to="/contact" class="nav-link">Contact Us</NavLink></li>
 						<li className="nav-item px-2 pl-3"><NavLink to="/contact" class="nav-link">Donate</NavLink></li>
 					</ul>
