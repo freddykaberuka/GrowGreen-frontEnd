@@ -3,6 +3,9 @@
     /* background-image: url('../../../../assets/images/3dtree.png'); */
     
 }
+.latest-blog{
+    text-align: center;
+}
 .card{
     cursor: pointer;
     text-decoration: none;
