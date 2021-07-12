@@ -8,6 +8,10 @@
 	.headding{
 		display: none;
 	}
+    .header_icon{
+        margin-left: 0;
+        display:hidden;
+    }
     .logo{
         width: 100%;
     }

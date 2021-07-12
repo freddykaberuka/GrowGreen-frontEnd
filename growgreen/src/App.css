@@ -95,3 +95,8 @@
 .fit-image{
   object-fit: cover;
 }
+/* @media screen and (min-width:375px){
+  .App{
+    width:100%;
+  }
+} */
