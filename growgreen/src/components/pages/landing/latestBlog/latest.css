@@ -17,6 +17,36 @@
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12),0 4px 8px rgba(0,0,0,.06);
 }
+
+/* card and  animation */
+
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-3 {
+  animation: moveSlideshow 12s linear infinite;
+}
+
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(100%);  
+  }
+}
+
+
+/* // Animation */
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
 @media screen and (max-width:375px){
     .cards{
         display:grid;

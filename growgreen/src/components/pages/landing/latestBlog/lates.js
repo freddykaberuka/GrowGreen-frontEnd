@@ -6,19 +6,19 @@ import {NavLink, Link} from 'react-router-dom'
 import './latest.css'
 function Lates() {
     return (
-        <div className='flex justify-center cards'>
-          <div class="col-sm-3">
+        <div className='flex justify-center cards tech-slideshow'>
+          <div class="col-sm-3 mover-1">
             <Link to='/singleBlog' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
                 <div class="card-body">
-                  <h5 class="card-title"><small>Meeting of Board With Farmers</small></h5>
+                  <h5 class="card-title"><small>Meeting of Board With Farmerss</small></h5>
                 </div>
               </div>
               </Link>
             </div>
             
-            <div class="col-sm-3">
+            <div class="col-sm-3 mover-2">
               <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
@@ -28,7 +28,7 @@ function Lates() {
               </div>
               </Link>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 mover-2">
               <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
