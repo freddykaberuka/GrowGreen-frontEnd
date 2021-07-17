@@ -12,7 +12,7 @@ function Lates() {
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
                 <div class="card-body">
-                  <h5 class="card-title"><small>Meeting of Board With Farmerss</small></h5>
+                  <h5 class="card-title"><small>Meeting of Board With Farmers</small></h5>
                 </div>
               </div>
               </Link>
@@ -28,7 +28,7 @@ function Lates() {
               </div>
               </Link>
             </div>
-            <div class="col-sm-3 mover-2">
+            <div class="col-sm-3 mover-3">
               <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
