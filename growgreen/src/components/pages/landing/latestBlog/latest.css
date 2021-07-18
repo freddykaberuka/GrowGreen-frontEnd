@@ -62,4 +62,8 @@
         animation: moveSlideshow ;
         width:100%;
     }
+    .mover-1, .mover-2, .mover-3{
+        padding: 16px;
+        margin-left:16px;
+}
 }
