@@ -105,7 +105,10 @@ figure {
 	.secondsec{
 		display: grid;
 	}
-	.impact{
-		
+	.pl-5, .px-5 {
+    padding-left: 0rem!important;
+	}
+	.card-align{
+		width: 80%;
 	}
 }

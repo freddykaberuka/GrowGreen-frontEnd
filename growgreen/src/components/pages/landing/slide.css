@@ -70,18 +70,20 @@
 }
 #carouselExampleIndicators .carousel-inner .carousel-item{
 	position: relative;
-	height: 100%;
+	height: 100vh;
 	width:100%;
 	background: url('../../../assets/images/ggr-background1.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
+	object-fit: cover;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
 	background: url('../../../assets/images/ggr-backound2.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
+	object-fit: cover;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	background: url('../../../assets/images/ggr-backound.jpg');
@@ -95,7 +97,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	height: auto;
-	width: 100%;
+	width: 100vw;
 	z-index: 1;
 	text-align: center;
 }
@@ -105,7 +107,7 @@
 	width: 100%;
 	z-index: 1;
 	text-align: center;
-	font-size: 5.5em;
+	font-size: 6vw;
 	font-weight: 750;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item p{
@@ -116,4 +118,15 @@
 	text-align: center;
 	font-size: 1.2em;
 	font-weight: 500;
+}
+@media screen and (max-width:375px){
+	/* #carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('../../../assets/images/ggr-background1.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+} */
 }

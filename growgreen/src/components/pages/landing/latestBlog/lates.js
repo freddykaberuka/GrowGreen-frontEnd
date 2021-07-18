@@ -7,7 +7,7 @@ import './latest.css'
 function Lates() {
     return (
         <div className='flex justify-center cards tech-slideshow'>
-          <div class="col-sm-3 mover-1">
+          <div class="col-sm-3 mover-1 mt-3">
             <Link to='/singleBlog' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
@@ -18,7 +18,7 @@ function Lates() {
               </Link>
             </div>
             
-            <div class="col-sm-3 mover-2">
+            <div class="col-sm-3 mover-2 mt-3">
               <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
@@ -28,7 +28,7 @@ function Lates() {
               </div>
               </Link>
             </div>
-            <div class="col-sm-3 mover-3">
+            <div class="col-sm-3 mover-3 mt-3">
               <Link to ='#' style={{ textDecoration: 'none', color:'black' }}>
               <div class="card">
                 <img src={image1} class="card-img-top card-image" alt="..."/>
