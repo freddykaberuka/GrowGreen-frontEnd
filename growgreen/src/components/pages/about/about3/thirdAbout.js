@@ -8,7 +8,7 @@ import Contact from './contactus'
 
 function ThirdAbout() {
     return (
-        <div className="d-flex  justify-content-center secondsec">
+        <div className="flex  justify-content-center secondsec mt-3">
             <Vision/>
             <Offices/>
             <Contact/>

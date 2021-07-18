@@ -9,12 +9,12 @@ h1{
 .about{
     color: #222;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 4vw;
     line-height: 1.2;
     margin-bottom: 7px;
 }
 .introduction {
     margin: 0 auto 28px;
     color: rgba(0, 0, 0, 0.6);
-    font-size: xx-large;
+    font-size: 3vw;
 }

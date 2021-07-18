@@ -19,7 +19,8 @@ $lg: new-breakpoint(min-width 1024px);
 }
 
 .secondsec{
-    max-height:10%;
+    max-height:8%;
+	
 }
 
 figure {
@@ -92,5 +93,21 @@ figure {
 			font-size: 14px;
 		}
 	}
+}
+
+@media screen and (max-width:375px) {
+	.secondsec{
+		display: grid;
+	}
+	.pl-5, .px-5 {
+    padding-left: 0rem!important;
+	}
+	.card-align{
+		width: 80%;
+	}
+	.about-card{
+		// padding:16px;
+	}
+	
 }
 

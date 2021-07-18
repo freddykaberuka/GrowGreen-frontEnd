@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 function Purpose() {
     return (
         <div>
-           <div className="card-deck mb-3 d-inline-block">
+           <div className="card-deck mb-3 d-inline-block about-card">
             <figure class="image-block">
 	        <img src={image2} alt="" />
 	        <figcaption>
                 
-		    <h3>
+		    <h3 className='about-header'>
 			Purpose and Value
 		</h3>
 		<p>Our Impact is Our North Star,In Everything that we do,we seek to generate Positive impact in the lives of Famers.</p>
