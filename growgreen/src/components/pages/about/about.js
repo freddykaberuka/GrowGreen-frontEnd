@@ -15,9 +15,9 @@ import ThirdAbout from './about3/thirdAbout'
 function About() {
     return (
         <div>
-            <div>
+            
             <Header/>
-            </div>
+            
             <Abouts/>
             <SecondAbout/>
             <ThirdAbout/>

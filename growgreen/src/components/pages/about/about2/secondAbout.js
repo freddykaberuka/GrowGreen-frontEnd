@@ -9,7 +9,7 @@ import Vision from '../about3/vision'
 
 function SecondAbout() {
     return (
-        <div className="d-flex  justify-content-center secondsec">
+        <div className="flex  justify-content-center secondsec">
            <Purpose/>
            <Mission/>
            <Leadership/>

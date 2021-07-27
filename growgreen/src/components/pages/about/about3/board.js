@@ -4,7 +4,7 @@ import image2 from '../../../../assets/images/image3.jpg'
 function Board() {
     return (
         <div>
-           <div className="card-deck mb-3 d-inline-block">
+           <div className="card-deck mb-3 pl-5 h-15 d-inline-block card-align">
             <figure class="image-block">
 	        <img src={image2} alt="" />
 	        <figcaption>

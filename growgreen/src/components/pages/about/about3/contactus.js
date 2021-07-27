@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Contact() {
     return (
         <div>
-            <div className="card-deck mb-3 ml-5 d-inline-block">
+            <div className="card-deck mb-3 pl-5 h-15 d-inline-block card-align">
                 <figure class="image-block">
 	                <img src={image1} alt="" />
 	                <figcaption>
