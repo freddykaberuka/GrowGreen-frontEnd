@@ -19,6 +19,7 @@ import SingleOffice from './components/pages/about/pages/singleOffice';
 import SingleWedo from './components/pages/about/pages/singleWhatwedo';
 import SingleImpact from './components/pages/about/pages/singleImpact';
 import SingleWork from './components/pages/about/pages/singleWork';
+import Dashboard from './components/Dashboard/dashboard-view';
 function App() {
   return (
     <div className="App">
@@ -39,6 +40,7 @@ function App() {
           <Route path='/whatwedo' component={SingleWedo}/>
           <Route path='/impact' component={SingleImpact}/>
           <Route path='/workwithus' component={SingleWork}/>
+          <Route path='/dashboard' component={Dashboard}/>
         </Switch>
       </Router>
     </div>
