@@ -20,6 +20,8 @@ import SingleWedo from './components/pages/about/pages/singleWhatwedo';
 import SingleImpact from './components/pages/about/pages/singleImpact';
 import SingleWork from './components/pages/about/pages/singleWork';
 import Dashboard from './components/Dashboard/dashboard-view';
+import Photo from './components/gallery/admin-gallery';
+import AddPhoto from './components/gallery/addPhoto';
 function App() {
   return (
     <div className="App">
@@ -41,6 +43,8 @@ function App() {
           <Route path='/impact' component={SingleImpact}/>
           <Route path='/workwithus' component={SingleWork}/>
           <Route path='/dashboard' component={Dashboard}/>
+          <Route path='/photo' component={Photo}/>
+          <Route path='/admin-photo' component={AddPhoto}/>
         </Switch>
       </Router>
     </div>

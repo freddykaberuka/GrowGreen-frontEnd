@@ -1,16 +1,12 @@
 import React from 'react'
-// import './blog.css'
-import image2 from '../../../assets/images/image3.jpg'
-import image3 from '../../../assets/images/2.jpeg'
-import image4 from '../../../assets/images/grow lunching.jpeg'
-import Header from '../../../../src/components/header/header'
-import Subscribe from '../../../../src/components/pages/footer1/subscribe/subscribe'
-import Footer from '../../../../src/components/pages/footer/footer'
+import image2 from '../../assets/images/image3.jpg'
+import image3 from '../../assets/images/2.jpeg'
+import image4 from '../../assets/images/grow lunching.jpeg'
 
-function Gallery() {
-    return (<div>
-        <Header/>
-        <div className="article-body">
+function Photo() {
+    return (
+        <div>
+            <p>Media Library <button type="button" className="btn btn-light" style={{color:'blue'}}>Add New</button></p>
             <div className="row g-4 mb-20 mt-20">
   <div className="col-md-3">
     <div className="card mt-3">
@@ -53,11 +49,8 @@ function Gallery() {
     </div>
   </div>
 </div>
-<Subscribe/>
-<Footer/>
-</div>
         </div>
     )
 }
 
-export default Gallery
+export default Photo
